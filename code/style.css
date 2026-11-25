@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(235, 229, 229);
+}
+header{
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    font-weight: 500;
+    border: 2px solid #ce953e;
+    border-radius: 40px;
+    background-color: white;
+}
+aside{
+    background:url(../images/monuments/banner.jpeg);
+    padding-top: 100px;
+    height: 80vh;
+    margin-top: 10px;
+}
+header img{
+    width: 120px;
+    padding-left: 30px;
+}
+header  nav{
+    padding-left: 550px;
+        
+}
+header a {
+    padding: 8px 8px 8px 8px;
+    font-size: 20px;
+    text-decoration: none;
+}
+header a:hover{
+    color: white;
+    background-color: darkblue;
+    border-radius: 20px;
+}
+aside{
+    font-size: 25px;
+    padding-left: 40px;
+    color: darkblue;
+    border-radius: 40px 40px 40px 40px;
+}
+aside button{
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    font-weight: 500;
+    color: darkblue;
+    background-color: #ce953e;
+    border-radius: 15px;
+
+}
+header span{
+    color: #ce953e;
+}
+.search-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    color: darkblue;
+}
+.search-btn i{
+    font-size: 20px;
+}
+.search-btn:hover{
+    color: white;
+}
+.fleche{
+    background-color: darkblue;
+    border-radius: 30px;
+    padding: 0px 4px 0px 4px;
+}
+
+
+main{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+.dest{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    padding: 0 40px;
+    padding-bottom: 30px;
+    
+}
+.card{
+    border-radius: 20px;
+    background-color: white;
+    padding: 8px 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: darkblue;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 16px;
+    display: block;
+}
+.classfooter{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+
+    color: #ce953e;
+    padding: 20px 20px 20px 20px;
+    padding-left: 200px;
+    font-size: 22px;
+    
+}
+section h1{
+    color: #ce953e;
+    
+    padding-bottom: 20px;
+}
+section h2{
+    color: darkblue ;    
+    padding-top: 60px;
+}
+footer{
+    border: 2px solid #ce953e;
+    border-radius: 40px;
+    background-color: white;
+}
+.classfooter a{
+    color: #ce953e;
+    text-decoration: none;
+}
+footer img{
+    width: 100%;
+    height: 50px;
+    padding-left: 50px;
+}
+label{
+    background-color: #f7d7a8;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+   
+}
